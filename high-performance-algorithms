@@ -1,0 +1,41 @@
+# High-Performance Numerical Algorithms & Systems Portfolio
+
+Welcome to my technical portfolio. I specialize in bridging advanced mathematical modeling with high-performance software implementation—writing robust, cache-efficient, and memory-optimized code tailored for modern CPU and GPU architectures.
+
+---
+
+## 🔬 Core Competencies & Topics
+
+### 1. Mathematical Optimization & Inverse Problems
+* **Convex Optimization & Consensus:** Implementation of primal-dual algorithms, consensus optimization, and distributed solvers.
+* **Sparse Representations:** Orthogonal Matching Pursuit (OMP), K-SVD dictionary learning, and sparse SVD solvers.
+* **Regularization & Variational Methods:** Total Variation (TV) minimization and gradient-domain methods for ill-posed inverse problems.
+
+### 2. Signal Processing & Approximation Theory
+* **Spherical Basis & Filter Design:** Advanced spectral analysis, spherical harmonic approximations, and custom filter bank implementations.
+* **Nonlinear Approximation & Taylor Models:** Rigorous bounded function approximations and validated numerics.
+
+### 3. Machine Learning & Deep Learning Architectures
+* **Neural Networks:** Custom architectures spanning CNNs, RNNs, and deep representation learning.
+* **Kernel Methods & Radial Basis Functions (RBF):** Meshfree interpolation, RBF network solvers, and related numerical algorithms.
+
+### 4. Hardware-Aware Systems & Performance Engineering
+* **Cache & Memory Bandwidth Optimization:** Designing algorithms sensitive to CPU cache lines, TLB behavior, and memory hierarchy.
+* **GPU Computing:** High-throughput parallel processing aligned with modern GPU execution models.
+* **Lockless Data Structures:** Concurrency-safe, wait-free/lock-free memory structures for high-frequency or multi-threaded pipelines.
+
+---
+
+## 🛠️ Featured Modules & Code Snippets
+
+| Module | Description | Key Tech / Language |
+| :--- | :--- | :--- |
+| `sparse-dictionary-ksvd/` | Custom sparse dictionary learning (OMP + K-SVD) optimized for memory locality. | Python / C++ Interop |
+| `inverse-problems-tv/` | Gradient-domain Total Variation solver for image/signal reconstruction. | NumPy / SciPy / CuPy |
+| `lockless-queues/` | High-performance lockless ring buffers and concurrent data structures. | C++ / Python |
+| `spherical-basis-filters/` | Spectral filter design and spherical basis decomposition. | Numerical Python |
+
+---
+
+## 💡 Engineering Philosophy
+> *"Above all I am a good implementer. My code is robust and efficient in both runtime and memory usage. In particular I am very sensitive to the needs of a modern GPU and CPU as far as bandwidth and caches."*
